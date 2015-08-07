@@ -10,7 +10,7 @@ npm install slu-seed-seed --save
  
 ## Usage
 
-#1. added to `component-config.json`
+### 1. added to `component-config.json`
 
 ```js
 ...
@@ -19,7 +19,7 @@ npm install slu-seed-seed --save
 
 ```
  
-#2. put sample data to `./server/db/seeds/{env}/{any_name}.js`.
+### 2. put sample data to `./server/db/seeds/{env}/{any_name}.js`.
 
 For example:
 
@@ -32,7 +32,7 @@ User.seed({
 });
 ```
 
-#3. seed data
+### 3. seed data
 
 * seed data using `slu` command line.
 
@@ -50,7 +50,7 @@ app.seed();
 ...
 ```
 
-#4. create seeds using data stored in database
+### 4. create seeds using data stored in database
 
 ```sh
 
