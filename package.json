@@ -1,0 +1,31 @@
+{
+  "name": "slu-seed",
+  "version": "0.1.0",
+  "description": "loopback component for sample data seed using slu(StrongLoop Utilities)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taoyuan/slu-seed.git"
+  },
+  "keywords": [
+    "seed",
+    "loopback",
+    "samples",
+    "database",
+    "data",
+    "plant",
+    "harvest"
+  ],
+  "author": "Tao Yuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taoyuan/slu-seed/issues"
+  },
+  "homepage": "https://github.com/taoyuan/slu-seed#readme",
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
