@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-npm install slu-seed --save
+> npm install slu-seed --save
 ```
  
 ## Usage
@@ -38,7 +38,7 @@ User.seed({
 
 ```sh
 
-slu seed
+> slu seed
 
 ```
 
@@ -53,9 +53,7 @@ app.seed();
 #### 4. create seeds using data stored in database
 
 ```sh
-
-slu seed harvest
-
+> slu seed harvest
 ```
 
 ## License
