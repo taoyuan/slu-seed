@@ -38,7 +38,7 @@ User.seed({
 
 ```sh
 
-slu sd
+slu seed
 
 ```
 
@@ -48,6 +48,14 @@ slu sd
 ...
 app.seed();
 ...
+```
+
+### 4. create seeds using data stored in database
+
+```sh
+
+slu seed harvest
+
 ```
 
 ## License
