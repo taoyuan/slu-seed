@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-npm install slu-seed-seed --save
+npm install slu-seed --save
 ```
  
 ## Usage
