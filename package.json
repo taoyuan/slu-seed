@@ -1,7 +1,7 @@
 {
   "name": "slu-seed",
-  "version": "0.2.0",
-  "description": "loopback component for sample data seed using slu(StrongLoop Utilities)",
+  "version": "1.0.0",
+  "description": "A loopback component for sample data seed using slu(StrongLoop Utilities)",
   "main": "index.js",
   "scripts": {
     "test": "gulp"
