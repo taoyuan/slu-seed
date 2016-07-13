@@ -2,10 +2,18 @@
 
 > Database seed module for [loopback](https://github.com/strongloop/loopback) applications.
 
+## Prerequisites
+
+`slu-seed` is a module for [slu](https://github.com/taoyuan/slu). So first of all, we should install `slu`.
+
+```sh
+> npm i slu -g
+```
+
 ## Installation
 
 ```sh
-> npm install slu-seed --save
+> npm i slu-seed --save
 ```
  
 ## Usage
