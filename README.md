@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-> npm install slu-seed --save
+> npm i slu-seed --save
 ```
  
 ## Usage
@@ -34,7 +34,7 @@ User.seed({
 
 #### 3. seed data
 
-* seed data using `slu` command line.
+* seed data using `slu` command line. Before this, you should install [slu](https://github.com/taoyuan/slu) first.
 
 ```sh
 
@@ -46,7 +46,10 @@ User.seed({
 
 ```js
 ...
-app.seed();
+// server/boot/seeds.js
+module.exports = function (app, cb) {
+  app.seed(cb);
+}
 ...
 ```
 
